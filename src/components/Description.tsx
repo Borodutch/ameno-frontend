@@ -13,14 +13,16 @@ export default function () {
         </Link>{' '}
         on the Base chain.
       </p>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/kLaaJ_aeoyM?si=LaVKkKBtnGH8NNsw"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      ></iframe>
+      <div className="flex relative h-80">
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube-nocookie.com/embed/kLaaJ_aeoyM?si=LaVKkKBtnGH8NNsw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </div>
       <ul>
         <li>
           There will always be at most 6,942,000 minted $AMENO in existence.
