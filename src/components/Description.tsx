@@ -1,10 +1,10 @@
-import Link from 'components/Link'
+// import Link from 'components/Link'
 
 export default function () {
   return (
     <>
       <h3>What's $AMENO? 🐣</h3>
-      <p>
+      {/* <p>
         The contract is{' '}
         <Link url="https://basescan.org/address/0x357b4Ef40A5cF049114B4566773e8A6a57F8E862#writeProxyContract">
           <span className="break-all">
@@ -12,7 +12,7 @@ export default function () {
           </span>
         </Link>{' '}
         on the Base chain.
-      </p>
+      </p> */}
       <div className="flex relative h-80">
         <iframe
           className="absolute inset-0 w-full h-full"
