@@ -69,6 +69,16 @@ export default function () {
           You did something with $AMENO successfully!
         </div>
       )}
+      {actionSuccess && (
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/t6isux5XWH0?si=2yL-WTSQtQRKQndX"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+      )}
       {error && (
         <div role="alert" class="alert alert-error break-all">
           {error}
